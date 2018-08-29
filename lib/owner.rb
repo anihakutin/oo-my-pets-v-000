@@ -33,7 +33,7 @@ class Owner
   end
   def sell_pets
     @pets.each do |key, value|
-      puts "#{key} - #{value}"
+    
     end
   end
 # Class methods
