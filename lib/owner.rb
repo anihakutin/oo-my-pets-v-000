@@ -33,12 +33,14 @@ class Owner
   end
   def sell_pets
     pets.each do |species, pet|
-      pets.each {|p| p.mood = "nervous"}
+      pet.each {|p| p.mood = "nervous"}
     end
     pets.clear
   end
   def list_pets
-
+    pets.each do |species, pet|
+      
+    end
   end
 # Class methods
   def self.all
