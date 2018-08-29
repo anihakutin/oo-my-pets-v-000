@@ -33,7 +33,7 @@ class Owner
   end
   def sell_pets
     @pets.each do |key, value|
-    
+      binding.pry
     end
   end
 # Class methods
