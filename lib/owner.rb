@@ -33,7 +33,7 @@ class Owner
   end
   def sell_pets
     @pets.each do |key, value|
-      pets[key][value].each {|p| p.mood = "nervous"}
+      value.each {|p| p.mood = "nervous"}
     end
   end
 # Class methods
