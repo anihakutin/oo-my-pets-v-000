@@ -38,9 +38,7 @@ class Owner
     pets.clear
   end
   def list_pets
-    pets.each do |species, pet|
-      
-    end
+    "I have #{pets[:fishes].count} fish, #{pets[:dogs].count} dog(s), and #{pets[:cats]} cat(s)."
   end
 # Class methods
   def self.all
