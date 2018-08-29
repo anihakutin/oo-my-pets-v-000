@@ -32,7 +32,9 @@ class Owner
     pets[:fishes].each {|f| f.mood = "happy"}
   end
   def sell_pets
-
+    @pets.each do |key, value|
+      
+    end
   end
 # Class methods
   def self.all
