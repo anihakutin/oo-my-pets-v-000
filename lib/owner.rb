@@ -35,6 +35,7 @@ class Owner
     @pets.each do |key, value|
       value.each {|p| p.mood = "nervous"}
     end
+    pets.clear
   end
 # Class methods
   def self.all
